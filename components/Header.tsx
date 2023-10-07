@@ -8,7 +8,12 @@ import Avatar from 'react-avatar'
 function Header() {
   return (
     <header>
-        <div className='flex flex-col md:flex-row items-center p-5 bg-gray-500 rounded-b-2xl'>
+        <div className='flex flex-col md:flex-row items-center p-5 rounded-b-2xl'>
+
+            <div 
+                className='absolute top-0 left-0 w-full h-96 bg-gradient-to-br from-pink-400 to to-blue-trello rounded-md filter blur-3xl opacity-50 -z-50'
+            />
+
             <Image
                 src="./trello-logo.svg"
                 alt="Trello logo"
